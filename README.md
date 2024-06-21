@@ -13,7 +13,6 @@ This project analyzes the spatial distribution of tweets in London using a geo-t
 - [Installation](#installation)
 - [Usage](#usage)
 - [Methods](#methods)
-- [Results](#results)
 - [Discussion](#discussion)
 - [Contributing](#contributing)
 - [License](#license)
@@ -90,30 +89,6 @@ This script will:
 
 - **Distribution Visualization:** Create histograms and heatmaps to visualize tweet distribution and newsworthiness scores.
 - **Statistical Analysis:** Compute and visualize statistics of tweet distribution across grid cells.
-
-## Results
-
-### Grid-Based Analysis
-
-- **Grid Dimensions:** 
-  - Rows: {grid_row}
-  - Columns: {grid_col}
-  - Total Grids: {new_grid}
-
-- **Tweet Distribution:**
-  - Average Tweets per Grid Cell: {mean_tweet_in_a_cell}
-  - Median Tweets per Grid Cell: {median_tweet_in_a_cell}
-  - Maximum Tweets in a Grid Cell: {max_tweet_in_a_cell}
-  - Minimum Tweets in a Grid Cell: {min_tweet_in_a_cell}
-
-### Newsworthiness Analysis
-
-- **Threshold Selection:** 
-  - Chosen threshold for newsworthy tweets: {threshold}
-- **Tweet Filtering:**
-  - Number of High Newsworthy Tweets: {len(high_newsworthy_tweets)}
-  - Number of Low Newsworthy Tweets: {len(low_newsworthy_tweets)}
-  - Percentage of Removed Tweets: {removed_tweets_percentage:.2f}%
 
 ### Visualizations
 
