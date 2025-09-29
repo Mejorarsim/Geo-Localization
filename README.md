@@ -1,7 +1,3 @@
-Here's a well-formatted README file for your GitHub repository:
-
----
-
 # Geo-Localization Analysis of Tweets
 
 This project analyzes the spatial distribution of tweets in London using a geo-tagged dataset. It implements a newsworthiness scoring mechanism to filter and examine tweets for their relevance. The project includes data preprocessing, grid-based spatial analysis, and the application of a newsworthiness scoring model to geo-tagged tweets.
